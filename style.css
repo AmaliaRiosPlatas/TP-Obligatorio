@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1rem;
+}
+
+body, header, main, footer{
+    border: 3px red solid;
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+main{
+    min-height: 200px;
+}
+
+header{
+    height:150px;
+}
+
+
+.logo{
+    margin: 0.5rem;
+    float: left;
+}
+.menunav{
+    margin: 0.5rem;
+    float: right;
+}
+
+
+.secciones{
+    min-height: 50px;
+    margin: 0.5rem;
+    border: 3px blue solid;
+    overflow: auto;
+
+
+}
+ 
+img{
+   
+    float: left;
+
+}
+
+
+
+.articulo{
+    min-height: 50px;
+    margin: 0.5rem;
+    border: 3px green solid;
+    float: right;
+    width: 35%;
+    
+    
+}
