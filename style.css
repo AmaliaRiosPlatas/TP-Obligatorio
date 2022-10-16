@@ -1,61 +1,216 @@
 *{
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 html{
-    font-size: 1rem;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    
 }
 
-body, header, main, footer{
-    border: 3px red solid;
-    min-height: 50px;
-    margin: 0.5rem;
-    min-width: 400px;
+body{
+    width: 100%;
+    min-height: 100vh;
+
 }
 
-main{
-    min-height: 200px;
+/* HEADER */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    overflow: hidden;
 }
 
-header{
-    height:150px;
-}
+.menu-navegacion{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    
 
+}
 
 .logo{
-    margin: 0.5rem;
-    float: left;
-}
-.menunav{
-    margin: 0.5rem;
-    float: right;
-}
-
-
-.secciones{
-    min-height: 50px;
-    margin: 0.5rem;
-    border: 3px blue solid;
-    overflow: auto;
-
-
-}
- 
-img{
-   
-    float: left;
-
-}
-
-
-
-.articulo{
-    min-height: 50px;
-    margin: 0.5rem;
-    border: 3px green solid;
-    float: right;
-    width: 35%;
+    height: 100px;
     
+}
+.logo img{
+    display: block;
+    height: 100%;
+    
+    
+}
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+}
+
+.enlaces a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+   
+}
+
+.enlaces a:hover{
+    color: rgb(126, 167, 243);
+}
+
+/* MAIN */
+
+main{
+    margin: 5px;
+}
+
+/* Primer section */
+
+.arriba{
+    height: 400px;
+    width: 100%;
+    
+
+}
+
+.imagen-main{
+    height: 400px;
+    width: 50%;
+    float: left;
+    background-color: rgb(218, 209, 202);
+
+}
+
+.foto{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.texto{
+    float: right;
+    background-color: rgb(218, 209, 202);
+    height: 400px;
+    width: 50%;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.texto h1{
+    font-size: 70px;
+}
+.texto h2{
+    font-size: 40px;
+}
+.enlace{
+    text-decoration: none;
+}
+.enlace a:hover{
+    color: rgb(126, 167, 243);
+}
+
+/* Segunda section */
+
+.medio{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(218, 209, 202);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+
+
+
+article{
+    
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+
+
+.opiniones{
+    
+    width: 70%;
+    float: right;
+    
+    
+}
+
+.op{
+    height: 250px;
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 25px;
+   
+}
+
+/* Tercer section */
+
+.abajo{
+    height: 300px;
+    width: 100%;
+}
+
+iframe{
+    width: 99%;
+    height: 300px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#encima{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgb(221, 224, 250);
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 25px;
+    
+}
+
+footer img{
+    width: 70ppx;
+    height: 70px;
+   
+}
+
+.redes-sociales i{
+    font-size: 30px;
+    padding: 15px;
+   
+}
+.redes-sociales i:hover{
+    color: rgb(126, 167, 243);
+}
+.titulo{
+    
+    text-align: center;
+}
+.titulo h2{
+    font-size: 20px;
     
 }
